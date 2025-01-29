@@ -1,7 +1,7 @@
 // Previous JavaScript code remains...
 
 // Initialize EmailJS
-emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+emailjs.init("4aVv8rtXId-dzNGa-"); // Replace with your EmailJS public key
 
 // Contact form handling
 const contactForm = document.getElementById('contactForm');
@@ -24,7 +24,7 @@ contactForm.addEventListener('submit', function(e) {
     };
 
     // Send email using EmailJS
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+    emailjs.send('service_62zs3mc', 'template_ilaqvos', templateParams)
         .then(function() {
             formStatus.textContent = 'Message sent successfully!';
             formStatus.className = 'form-status success';
