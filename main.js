@@ -24,7 +24,7 @@ contactForm.addEventListener('submit', function(e) {
     };
 
     // Send email using EmailJS
-    emailjs.send('service_62zs3mc', 'template_ilaqvos', templateParams)
+    emailjs.send('service_62zs3mc', 'template_ilqqvos', templateParams)
         .then(function() {
             formStatus.textContent = 'Message sent successfully!';
             formStatus.className = 'form-status success';
